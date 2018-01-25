@@ -7,12 +7,16 @@ A C program that generates a maze randomly everytime it is launched.
 To generate the maze :
 ```sh
 $ make
-$ ./generator $width $height
+$ ./generator $width $height $format
 ```
+
+width(int)
+height(int)
+format(char) : 'p' for a perfect maze, 'i' for an imperfect maze
 
 Example :
 ```sh
-$ ./generator 50 31
+$ ./generator 50 31 p
 ```
 
 It follows the previous norme of Epitech.
